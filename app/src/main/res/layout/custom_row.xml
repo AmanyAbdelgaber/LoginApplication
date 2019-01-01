@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="15dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/nature">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#bf161616">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+
+           android:layout_margin="10dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Note"
+               android:textColor="@color/orange"
+               android:textSize="20sp"
+               android:id="@+id/note"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="20dp"
+               android:orientation="vertical">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <Button
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:background="@drawable/ic_pause_black_24dp"
+                       android:layout_marginLeft="100dp"
+                       android:id="@+id/pauseBtn"/>
+
+                   <Button
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:background="@drawable/ic_play_arrow_black_24dp"
+                       android:layout_marginLeft="40dp"
+                       android:id="@+id/playBtn"/>
+                   <Button
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:background="@drawable/ic_stop_black_24dp"
+                       android:layout_marginLeft="40dp"
+                       android:id="@+id/stopBtn"/>
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+   </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

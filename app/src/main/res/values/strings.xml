@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recorder Notes App</string>
+    <string name="underLine"><u>Sign Up</u></string>
+    <string name="facebook_app_id">529770057542617</string>
+    <string name="fb_login_protocol_scheme">fb529770057542617</string>
+
+</resources>

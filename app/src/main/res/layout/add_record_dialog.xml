@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nature"
+    android:id="@+id/addRecordDialogView"
+    tools:context=".RecordActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bf161616">
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/record_btn"
+            android:text="Record"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/recordBtn"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_stop_black_24dp"
+            android:text="Stop"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/stopRecordBtn"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:layout_below="@id/recordBtn"
+            android:layout_margin="10dp"
+            android:hint="Write your notes "
+            android:padding="10dp"
+            android:gravity="start"
+            android:id="@+id/notesEditTxt"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:layout_below="@id/notesEditTxt"
+            android:text="Add to My Account"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:id="@+id/addBtn"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
